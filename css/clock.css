@@ -1,0 +1,8 @@
+.js-clock{
+    width: 100%;
+    font-size: 250px;
+    font-weight: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}

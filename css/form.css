@@ -1,0 +1,83 @@
+.form-container{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+@keyframes fliker{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.js-form,
+.greetings-container,
+.js-toDoForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    color: white;
+    animation: fliker 0.5s ease-in-out;
+}
+.greetings-container .js-greetings{
+    font-size: 60px;
+}
+
+
+.container-container input{
+    background:none;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    padding-bottom: 24px;
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }  
+
+
+
+.container-container input:focus{
+    outline: none;
+    padding-bottom: 20px;
+    border-bottom: 4px solid white;
+
+}
+
+
+.js-toDoForm{
+    padding: 10px 0px;
+
+}
+.js-toDoList li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+    font-size: 50px;
+    align-items: center;
+}
+.js-toDoList button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+}
